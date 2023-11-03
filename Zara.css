@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#main{
+  height:100%;
+  width:100%;
+  background-color:#D0D4D5;
+  position: relative;
+}
+
+#nav{
+  height: 90px;
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img{
+  height: 35px;
+  margin-right: 150px;
+}
+
+#nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#nav-part1 h4{
+  margin-right: 70px;
+  font-size: 18px;
+  text-transform:uppercase ;
+  font-weight: 600;
+}
+
+#nav-part2 i{
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#content{
+  width: 100%;
+  height:calc(100% - 90px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#left{
+  width: 40%;
+  height: 100%;
+  padding: 90px 150px;
+}
+
+#left h5{
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #535353;
+}
+
+#left h1{
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#left p{
+  font-size: 15px;
+  margin-bottom: 25px;
+ width: 80%;
+}
+
+#left button{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+
+}
+
+#right{
+  white-space: nowrap;
+  width: 65%;
+  height: 100%;
+  padding: 80px;
+  overflow-x: auto;
+
+}
+
+#right::-webkit-scrollbar{
+  display: none;
+}
+
+.elem{
+  height: 400px;
+  width: 200px;
+  background-color: white;
+  margin-right: 20px;
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(0,0,0,0.3);
+}
+
+.elem img{
+  height: 40%;
+  width: 100%;
+  top:20%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.elem h4{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  background-color: #D0D4D5;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
+.elem h5{
+  position: absolute;
+  bottom: 13%;
+  right:0;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
